@@ -7,6 +7,8 @@
 *.dll
 *.so
 *.dylib
+blockchain.db
+the-blockchain-project
 
 # Test binary, built with `go test -c`
 *.test
