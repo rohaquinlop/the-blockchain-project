@@ -10,12 +10,12 @@ const dbFile = "blockchain.db"
 
 type Blockchain struct {
 	tip []byte
-	db  bitcask.DB
+	db  *bitcask.Bitcask
 }
 
 type BlockchainIterator struct {
 	currentHash []byte
-	db          bitcask.DB
+	db          *bitcask.Bitcask
 }
 
 func (bc *Blockchain) Iterator() *BlockchainIterator {
