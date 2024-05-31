@@ -2,6 +2,8 @@ module github.com/rohaquinlop/the-blockchain-project
 
 go 1.21.4
 
+require go.mills.io/bitcask/v2 v2.0.8
+
 require (
 	github.com/abcum/lcp v0.0.0-20201209214815-7a3f3840be81 // indirect
 	github.com/gofrs/flock v0.8.1 // indirect
@@ -9,7 +11,7 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/mattetti/filebuffer v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	go.mills.io/bitcask/v2 v2.0.3 // indirect
-	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
-	golang.org/x/sys v0.14.0 // indirect
+	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 // indirect
+	golang.org/x/sys v0.20.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )
